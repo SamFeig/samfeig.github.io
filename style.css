@@ -52,6 +52,17 @@ body {
   position: relative;
   z-index: auto; }
 
+/* body {
+    background-color: #343a40;
+    color: white;
+}
+@media screen and (prefers-color-scheme: light) {
+  body {
+    background-color: white;
+    color: black;
+  }
+} */
+
 h1,
 h2,
 h3,
@@ -1555,6 +1566,7 @@ input:required {
   overflow: hidden; }
   .single-portfolio-content img {
     width: 100%;
+    height: 100%;
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
     transition-duration: 500ms; }

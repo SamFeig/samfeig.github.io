@@ -3,10 +3,12 @@
 .breadcrumb-area {
     position: relative;
     z-index: 1;
-    height: 370px;
+    //height: 370px;
+    height: 150px;
 
     @media #{$breakpoint-xs} {
         height: 240px;
+        //height: 100px;
     }
 
     .page-title {
@@ -57,6 +59,7 @@
 .breadcrumb-area {
     &.blog {
         height: 550px;
+        //height: 100px;
 
         .breadcrumb-content {
             .post-catagory {
@@ -80,7 +83,7 @@
                 display: block;
                 font-size: 48px;
                 margin-bottom: 20px;
-                
+
                 @media #{$breakpoint-xs} {
                     font-size: 30px;
                 }
@@ -98,7 +101,7 @@
                     color: $white;
                     font-weight: 500;
                     margin-right: 21px;
-                    
+
                     @media #{$breakpoint-xs} {
                         font-size: 13px;
                     }
